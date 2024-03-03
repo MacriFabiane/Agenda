@@ -5,7 +5,7 @@
     <?php include_once ("template/backbtn.html"); ?>
     <h1 id="main-title">Criar Contato</h1>
     <form id="create-form" action="<? $BASE_URL ?>config/process.php" method="POST">
-        <input type="hidden" name="type" value="create"> <!--meio que vai guiar o envio de dados -->
+        <input type="hidden" name="type" value="create"> <!--meio que vai guiar o envio de dados no back -->
         <div class="form-group">
             <label for="name">Nome do contato:</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Digite o nome do contato" required><!-- a tag name é o que vai nos guiar no backend -->
