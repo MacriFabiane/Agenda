@@ -4,8 +4,10 @@
 
     session_start();
 
-    include_once("connectino.php");
+    include_once("conection.php");
     include_once("url.php");
+
+    $contacts = []; //inicicar contacts como um array vazio
 
     $query = "SELECT * FROM contacts";
 
