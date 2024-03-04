@@ -44,6 +44,10 @@
     color: #bd2130;
 }
 
+.delete-form{
+    display: inline-block;
+}
+
 .delete-btn{
     background-color: transparent;
     border: none;
@@ -107,5 +111,5 @@
     #home-link{
         display: none;
     }
-    
+
 }
